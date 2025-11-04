@@ -22,7 +22,7 @@
                     <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
                     <li><a href="#curriculum" onclick="seleccionar()">CURRÍCULUM</a></li>
                     <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    <li><a href="archivo/Jhosefer-Curriculo.pdf" download="Jhosefer-Curriculo.pdf">DESCARGAR CV</a></li>
                 </ul>
             </nav>
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
@@ -268,52 +268,6 @@
             </div>
         </div>
     </section>
-
-    <!-- SECCION CONTACTO -->
-    <section id="contacto" class="contacto">
-        <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
-            <div class="fila">
-                <!-- Formulario -->
-                    <div class="col">
-                        <form action="databaseconnect.php" method="POST">
-                            <input type="text" name="Nombre" placeholder="Tú Nombre" required="true">
-                            <input type="text" name="Telefono" placeholder="Número telefónico">
-                            <input type="text" name="Correo" placeholder="Dirección de correo" required="true">
-                            <input type="text" name="Tema" placeholder="Tema">
-                            <textarea cols="30" rows="10" name="Mensaje" placeholder="Mensaje"></textarea>
-                            <button>
-                                Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
-                                <span class="overlay"></span>
-                            </button>
-                            <input type="hidden" name="_next" value="www.jhosefer.com">
-                            <input type="hidden" name="_captcha" value="false">
-                    </form>
-                </div>    
-                <!-- Mapa -->
-                <div class="col">
-                    <img src="img/ubicacion.png" alt="">
-                    <div class="info">
-                        <ul>
-                            <li>
-                                <i class="fa-solid fa-location-dot"></i>
-                                Perú - Lima, Los Olivos
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-mobile-screen"></i>
-                                Teléfono: +51 929015973 
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-envelope"></i>
-                                Email: jhosefer2@gmail.com
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- footer -->
     <footer>
         <a href="#inicio" class="arriba">
